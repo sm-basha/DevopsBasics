@@ -1,10 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>My First HTML Page</title>
+  <title>Login</title>
 </head>
 <body>
-  <h1>This is my first HTML page!</h1>
-  <p>I'm so excited to learn HTML!</p>
+  <h1>Login</h1>
+  <form action="/login" method="post">
+    <input type="text" name="username" placeholder="Username">
+    <input type="password" name="password" placeholder="Password">
+    <input type="submit" value="Login">
+  </form>
 </body>
 </html>
