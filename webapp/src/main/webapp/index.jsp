@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+<h1> My Dumb Calculator </h1>
 <head>
     <title>Calculator App</title>
     <style>
