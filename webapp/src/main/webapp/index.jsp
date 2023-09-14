@@ -1,52 +1,45 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Simple Calculator</title>
-    <style>
-        input[type="button"] {
-            width: 50px;
-            height: 50px;
-            font-size: 20px;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ecommerce Landing Page</title>
 </head>
 <body>
-    <h1>Simple Calculator</h1>
-    <input type="text" id="result" readonly><br>
-    <input type="button" value="1" onclick="addToResult('1')">
-    <input type="button" value="2" onclick="addToResult('2')">
-    <input type="button" value="3" onclick="addToResult('3')">
-    <input type="button" value="+" onclick="addToResult('+')"><br>
-    <input type="button" value="4" onclick="addToResult('4')">
-    <input type="button" value="5" onclick="addToResult('5')">
-    <input type="button" value="6" onclick="addToResult('6')">
-    <input type="button" value="-" onclick="addToResult('-')"><br>
-    <input type="button" value="7" onclick="addToResult('7')">
-    <input type="button" value="8" onclick="addToResult('8')">
-    <input type="button" value="9" onclick="addToResult('9')">
-    <input type="button" value="*" onclick="addToResult('*')"><br>
-    <input type="button" value="C" onclick="clearResult()">
-    <input type="button" value="0" onclick="addToResult('0')">
-    <input type="button" value="=" onclick="calculateResult()">
-    <input type="button" value="/" onclick="addToResult('/')">
-    
-    <script>
-        function addToResult(value) {
-            document.getElementById('result').value += value;
-        }
-
-        function clearResult() {
-            document.getElementById('result').value = '';
-        }
-
-        function calculateResult() {
-            try {
-                var result = eval(document.getElementById('result').value);
-                document.getElementById('result').value = result;
-            } catch (error) {
-                document.getElementById('result').value = 'Error';
-            }
-        }
-    </script>
+  <header>
+    <h1>Ecommerce Landing Page</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Products</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+  <main>
+    <section id="hero">
+      <img src="img/hero.jpg" alt="Hero image">
+      <h2>The best ecommerce products for you</h2>
+      <p>Find the perfect products for your needs at our online store. We have a wide selection of products to choose from, and we offer great prices and customer service.</p>
+      <button>Shop now</button>
+    </section>
+    <section id="products">
+      <h2>Our products</h2>
+      <ul>
+        <li>Product 1</li>
+        <li>Product 2</li>
+        <li>Product 3</li>
+        <li>Product 4</li>
+        <li>Product 5</li>
+      </ul>
+    </section>
+    <section id="cta">
+      <h2>Call to action</h2>
+      <p>Don't miss out on our great deals! Shop now and save.</p>
+      <button>Shop now</button>
+    </section>
+  </main>
+  <footer>
+    <p>Copyright 2023 Ecommerce Landing Page</p>
+  </footer>
 </body>
 </html>
