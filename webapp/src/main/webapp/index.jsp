@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>POS Device</title>
+  <title>POS Paplu</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
