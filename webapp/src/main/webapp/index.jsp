@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>POS Paplu</title>
+  <title>POS Paplu  Chanpak</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
