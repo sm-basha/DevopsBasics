@@ -10,7 +10,7 @@
     <div class="items">
       <div class="item">
         <img src="item1.png" alt="Item 1">
-        <h2>Item 1</h2>
+        <h2>Item Chanpak</h2>
         <p>This is the description of item 1.</p>
         <input type="number" name="quantity" value="1">
         <p>$10.00</p>
