@@ -1,45 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ecommerce Landing Page</title>
+  <title>POS Device</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1>Ecommerce Landing Page</h1>
-    <nav>
-      <a href="#">Home</a>
-      <a href="#">Products</a>
-      <a href="#">About</a>
-      <a href="#">Contact</a>
-    </nav>
-  </header>
-  <main>
-    <section id="hero">
-      <img src="img/hero.jpg" alt="Hero image">
-      <h2>The best ecommerce products for you</h2>
-      <p>Find the perfect products for your needs at our online store. We have a wide selection of products to choose from, and we offer great prices and customer service.</p>
-      <button>Shop now</button>
-    </section>
-    <section id="products">
-      <h2>Our products</h2>
-      <ul>
-        <li>Product 1</li>
-        <li>Product 2</li>
-        <li>Product 3</li>
-        <li>Product 4</li>
-        <li>Product 5</li>
-      </ul>
-    </section>
-    <section id="cta">
-      <h2>Call to action</h2>
-      <p>Don't miss out on our great deals! Shop now and save.</p>
-      <button>Shop now</button>
-    </section>
-  </main>
-  <footer>
-    <p>Copyright 2023 Ecommerce Landing Page</p>
-  </footer>
+  <div class="container">
+    <h1>POS Device</h1>
+    <div class="items">
+      <div class="item">
+        <img src="item1.png" alt="Item 1">
+        <h2>Item 1</h2>
+        <p>This is the description of item 1.</p>
+        <input type="number" name="quantity" value="1">
+        <p>$10.00</p>
+      </div>
+      <div class="item">
+        <img src="item2.png" alt="Item 2">
+        <h2>Item 2</h2>
+        <p>This is the description of item 2.</p>
+        <input type="number" name="quantity" value="1">
+        <p>$20.00</p>
+      </div>
+    </div>
+    <div class="total">
+      <h2>Total</h2>
+      <p>$30.00</p>
+    </div>
+    <button>Pay</button>
+  </div>
 </body>
 </html>
